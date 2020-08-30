@@ -1,0 +1,33 @@
+form {
+  label {
+    display: block;
+    width: 100%;
+  }
+
+  .mailing-list {
+    margin-bottom: 20px;
+  }
+
+  input {
+    box-shadow: none;
+    border: none;
+    display: block;
+    height: 33.75px;
+    width: 250px;
+    margin: 5px 0;
+    font-family: 'Fira Code', Monaco, Consolas, Ubuntu Mono, monospace;
+
+    &:focus, &:hover {
+      box-shadow: none;
+      outline: none;
+      border: 5px solid var(--accent);
+    }
+  }
+
+  input[type="submit"] {
+    width: 125px;
+    margin-top: 20px;
+    background-color: var(--accent);
+    cursor: pointer;
+  }
+}
